@@ -1,0 +1,22 @@
+{
+  "name": "spiketime",
+  "version": "1.0.0",
+  "description": "Online time tracking software for project teams and freelancers.",
+  "main": "index.js",
+  "author": "Alan Plum <me@pluma.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.spiketime.de/app/",
+    "serviceName": "SpikeTime",
+    "message": "Online time tracking software for project teams and freelancers.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
